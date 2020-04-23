@@ -10,7 +10,7 @@ It is with great pleasure that I was able to help Leslie and Company with the an
 
 My first step was to analyze the survey data. I used the KMeans algorithm in order to understand which subsets of the population find each park attraction important. I chose a cluster number of 5, because it seemed to best separate out the clusters. Here is the scatterplot generated from this exercise:
 
-![](RackMultipart20200423-4-12nxi6u_html_e27cb1667d2ff6c7.png)
+![](kmeans.png)
 
 Now, we can see that there is some separation between clusters. For example, Pawneeans in the purple (4) cluster clearly have a different set of priorities when it comes to parks than do those in the red (3) or green (2) clusters. However, those in the red cluster seem to share a lot of similarities with those in the green cluster, and those in the orange (1) cluster share a lot of similarities with those in the purple and blue (0) clusters.
 
